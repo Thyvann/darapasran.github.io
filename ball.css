@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin:0;
+    font-family: 'PT Serif', serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+html, body{
+    background-color: #8cf468a4;
+    color: whitesmoke;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow: visible;
+}
+
+.background{
+    height: 95vh;
+    width: auto;
+    background-image: url('dara.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+
+.card-group{
+    height: 200vh;
+    width: auto;
+    background-image: url('7238996.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    overflow: hidden;
+}
+
+.anggota{
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  display: flex;
+  column-gap: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+.container{
+  display: flex;
+  max-width: 850px;
+  margin: 0 auto;
+  max-height: 100vw;
+  column-gap: 20px;
+  overflow: hidden;
+}
+
+.card{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  justify-content: space-between;
+}
+
+.card-img-top{
+  width: auto;
+  height: 29em;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+
+
+footer{
+ width: 100%;
+ position: relative;
+ bottom: 0;
+ background: linear-gradient(to right, #00093c, #2d0b00);
+ color: #fff;
+ padding: 100px 0px 30px;
+ border-top-left-radius: 125px;
+ font-size: 13px;
+ line-height: 20px;
+}
+
+.rows{
+ width: 85%;
+ margin: auto;
+ display: flex;
+ flex-wrap: wrap;
+ align-items: flex-start;
+ justify-content: space-between;
+}
+
+.col{
+ flex-basis: 25%;
+ padding: 10px;
+}
+
+.dara{
+ width: 70px;
+ height: 70px;
+ margin-bottom: 30px;
+}
+
+.h3 .col{
+ width: fit-content;
+ margin-bottom: 40px;
+ position: relative;
+}
+
+.col .instagram{
+background: radial-gradient(circle farthest-corner at 35% 90%, #ffd72c, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #ffd72c, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #8c04fa, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #a500ec, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #ff00c9, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #c200e8, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #fe0143, transparent), linear-gradient(#6559ca, #ff00e3 30%, #ff130e 70%, #ff130e 70%, #ffca00 100%);
+-webkit-background-clip: text;
+  background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 30px;
+}
+
+.col .whatsapp{
+  color: white;
+  font-size: 30px;
+}
+
+hr{
+  width: 90;
+  border: 0;
+  border-bottom: 1px solid #ccc
+}
+
+.copyright{
+  text-align: center;
+}
+Test
